@@ -1,6 +1,7 @@
 
 h1, h2, h3 , h4, h5, h6 {
     text-transform: capitalize;
+    margin: auto;
 }
 
 h1 {
@@ -17,6 +18,22 @@ footer a {
 
 footer a:hover{
     color: black;
+}
+
+span {
+    background-color: aquamarine;
+    padding: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+hr {
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+section {
+    margin-top: 50px;
 }
 
 .col, .col-sm {
