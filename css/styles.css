@@ -1,0 +1,74 @@
+
+h1, h2, h3 , h4, h5, h6 {
+    text-transform: capitalize;
+}
+
+h1 {
+    color: teal;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover{
+    color: black;
+}
+
+.col, .col-sm {
+    border: 1px solid black;
+    background-color: beige;
+    padding: 20px;
+}
+
+
+main:before {
+    content: "Mobile first < 575";
+}
+
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    main::before {
+        content: "Large devices (desktops, less than 1200px)";
+    }    
+ }
+
+ /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    main:before {
+        content: "Small devices (landscape phones, less than 768px)";
+    }    
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    main:before {
+        content: "Medium devices (tablets, less than 992px";
+    }    
+}
+
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    main:before {
+        content: "Extra small devices (portrait phones, less than 576px)";
+    }
+    
+}
+
+/*Extra large devices (large desktops)
+ No media query since the extra-large breakpoint has no upper bound on its width */
+
+ .fab.fa-github {
+     font-size: 30px;
+     color: white;
+ }
+
+ .fab.fa-github {
+    font-size: 30px;
+    color: white;
+}
